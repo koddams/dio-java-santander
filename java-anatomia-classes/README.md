@@ -1,18 +1,34 @@
-## Getting Started
+// Declaração inválida de variáveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+int numero&um = 1; //Os unicos símbolos permitidos são _ e $
+int 1numero = 1;   //Uma variável não pode começar com numericos
+int numero um = 1; //Não pode ter espaço no nome da variável
+int long = 1; //lonf faz parte das palavras reservadas da lingua
 
-## Folder Structure
+// Declaração válida de variáveis
 
-The workspace contains two folders by default, where:
+int numero$um = 1;
+int numero1 = 1;
+int numeroum = 1;
+int longo = 1;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+// Estrutura
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Tipo NomeBemDefinido = Atribuição (opicional em alguns casos)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+// Exemplo
 
-## Dependency Management
+int idade = 23;
+double altura = 1.62;
+Dog spike;
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+DECLARANDO METODOS
+
+// Estrutura
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+Exemplo
+
+int somar (int numeroUm, int numero2)
